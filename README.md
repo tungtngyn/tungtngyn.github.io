@@ -3,6 +3,8 @@ This repository is a professional portfolio of the projects I've worked on throu
 
 Built on top of the `minimal-mistakes` Jekyll theme with some minor customizations.
 
+Check out my Portfolio: [tungtngyn.github.io](https://tungtngyn.github.io)
+
 
 
 # Contact Information
