@@ -1,0 +1,65 @@
+# Site Settings
+remote_theme          : "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin : "dark"
+locale                : "en-US"
+title                 : "Tung's Portfolio"
+name                  : "Tung Nguyen"
+description           : "A professional portfolio of the projects I've worked on throughout my career."
+url                   : "https://tungtngyn.github.io"
+baseurl               : ""
+repository            : "tungtngyn/tungtngyn.github.io"
+search                : true
+search_full_content   : true
+
+# Site Author
+author:
+  name       : "Tung Nguyen"
+  bio        : "Data Engineer"
+  avatar     : "/assets/images/profile.jpg"
+  location   : "San Diego, CA"
+  resume     : "/assets/resume/Resume_Tung_Nguyen.pdf"
+  links:
+    - label: "tungtngyn@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tungtngyn@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/tungtngyn/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tungtngyn/"
+
+
+# Plugins
+plugins:
+  - csv
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Pages
+include:
+  - _pages
+
+collections:
+  posts:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: false
