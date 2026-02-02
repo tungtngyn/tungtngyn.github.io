@@ -14,7 +14,7 @@ search_full_content   : true
 # Site Author
 author:
   name       : "Tung Nguyen"
-  bio        : "Data Engineer"
+  bio        : "Data Engineering & Analytics Professional"
   avatar     : "/assets/images/profile.jpg"
   location   : "San Diego, CA"
   resume     : "/assets/resume/Resume_Tung_Nguyen.pdf"

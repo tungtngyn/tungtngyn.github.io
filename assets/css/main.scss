@@ -12,6 +12,10 @@ p {
   text-align: justify;
 }
 
+.sidebar p {
+  text-align: left !important;
+}
+
 /* Sidebar, Header, Footer Config */
 .sidebar,
 .author__avatar,
