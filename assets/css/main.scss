@@ -8,12 +8,8 @@ $global-font-family: $sans-serif !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-p {
+section.page__content p {
   text-align: justify;
-}
-
-.sidebar p {
-  text-align: left !important;
 }
 
 /* Sidebar, Header, Footer Config */
