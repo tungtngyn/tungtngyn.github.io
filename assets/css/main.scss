@@ -53,6 +53,10 @@ p, li {
   color: #e6e6e6;
 }
 
+p a {
+  font-weight: bold;
+}
+
 /* Page Header */
 .masthead__menu {
   margin-left: 0 !important;
@@ -103,6 +107,29 @@ a:visited {
 a:hover { 
   color: #bbbbbb; 
   outline: 0;
+}
+
+/* Lists */
+p:has(+ ul), p:has(+ ol) {
+  margin-bottom: 0.25em !important;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+ul a, ol a {
+  font-weight: bold;
+}
+
+li a {
+  font-weight: normal;
+}
+
+/* Images */
+p img {
+  padding: 20px;
+  background-color: white;
 }
 
 /* Global Transitions */
