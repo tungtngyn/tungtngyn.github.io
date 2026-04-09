@@ -4,7 +4,7 @@ excerpt: "Developed a multi-stage optimization workflow for composite structures
 tags: [numerical-optimization, finite-element-analysis]
 ---
 
-Association(s): RTX
+Association(s): Collins Aerospace (RTX)
 
 # Overview
 
@@ -37,7 +37,7 @@ Lastly, a constrained Design of Experiments (DOE) is performed by perturbing ply
 
 # Future Opportunities
 
-I was nominated for RTX's Engineer of the Year award for successfully developing and applying this methodology to multiple programs - I ended up winning Semi-Finalist, which was one of my greatest achievements as a Structural Engineer.
+I was nominated for Collins Aerospace's Engineer of the Year award for successfully developing and applying this methodology to multiple programs - I ended up winning Semi-Finalist, which was one of my greatest achievements as a Structural Engineer.
 
 That being said - it's always good to have a continuous improvement mindset. Some proposals I had for expansion of this method was:
 * **Bolted Structures:** Expand methodology to support optimization of fastener placements.

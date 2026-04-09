@@ -4,7 +4,7 @@ excerpt: "A webapp used to evaluate escalation clauses and forecast part pricing
 tags: [statistics, aws, python, flask]
 ---
 
-Association(s): RTX
+Association(s): Collins Aerospace (RTX)
 
 # Overview
 
@@ -31,4 +31,4 @@ The system uses a lightweight Single Page Application (SPA) architecture with **
 
 # Future Opportunities
 
-This system still has significant opportunities for expansion. As EPA clauses become more common, new contracts introduce increasingly diverse and complex terms to adapt to the many different product portfolios at RTX, requiring ongoing extensions to the application's business logic. There are also opportunities to integrate this tool with existing enterprise systems, such as contract lifecycle management (CLM) tools for company-wide EPA clause tracking and analysis, and project and portfolio management (PPM) systems to automate quarterly part price forecasts.
+This system still has significant opportunities for expansion. As EPA clauses become more common, new contracts introduce increasingly diverse and complex terms to adapt to the many different product portfolios at Collins, requiring ongoing extensions to the application's business logic. There are also opportunities to integrate this tool with existing enterprise systems, such as contract lifecycle management (CLM) tools for company-wide EPA clause tracking and analysis, and project and portfolio management (PPM) systems to automate quarterly part price forecasts.

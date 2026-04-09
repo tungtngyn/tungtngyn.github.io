@@ -4,11 +4,11 @@ excerpt: "A data-intensive webapp used to manage material shortages."
 tags: [airflow, aws, terraform, snowflake, postgres, docker, python, fastapi]
 ---
 
-Association(s): RTX
+Association(s): Collins Aerospace (RTX)
 
 # Overview
 
-The Line Disruption Tool (LDT) is an internal, cloud-native application developed for the Supply Chain organization at RTX. It's a data-intensive, web-based platform that consolidates information from ERP systems, external APIs, and internal databases. By unifying these disparate sources, the system equips procurement teams with the tooling needed to detect and mitigate material shortages across the entire company.
+The Line Disruption Tool (LDT) is an internal, cloud-native application developed for the Supply Chain organization at Collins. It's a data-intensive, web-based platform that consolidates information from ERP systems, external APIs, and internal databases. By unifying these disparate sources, the system equips procurement teams with the tooling needed to detect and mitigate material shortages across the entire company.
 
 The tool also promotes cross-functional collaboration through features such as comments, status indicators, escalation workflows, and email notifications. In addition to collaboration tools, the platform offers many customization options, enabling users to save and load personalized configurations across all data grids.
 
@@ -31,7 +31,7 @@ Key design features of this platform include:
 * Enforcing data governance through Single Sign-On (SSO) and role-baseŒd access controls aligned with the principle of least privilege.
 * Centralizing secrets management using AWS Secrets Manager, with automated rotation via Lambda functions.
 
-Most notably, the system is designed with a config-driven development model, meaning a large portion of backend logic and frontend behavior is controlled by configuration files stored on S3. This approach allowed my team to respond quickly to changing business requirements without requiring full application deployments. It also helped us customize the application for different teams across the company, which was an important requirement - RTX purchases a wide variety of parts, and procurement practices can vary drastically!
+Most notably, the system is designed with a config-driven development model, meaning a large portion of backend logic and frontend behavior is controlled by configuration files stored on S3. This approach allowed my team to respond quickly to changing business requirements without requiring full application deployments. It also helped us customize the application for different teams across the company, which was an important requirement - Collins purchases a wide variety of parts, and procurement practices can vary drastically!
 
 <br/>
 

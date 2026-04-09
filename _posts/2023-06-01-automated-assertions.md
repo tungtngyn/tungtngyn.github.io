@@ -4,11 +4,11 @@ excerpt: "An integrated ecosystem of data tools used to automatically identify $
 tags: [airflow, snowflake, SAP, business-intelligence]
 ---
 
-Association(s): RTX
+Association(s): Collins Aerospace (RTX)
 
 # Overview
 
-Many contracts at RTX include assertion clauses that apply when a vendor underperforms, typically measured by an On-Time Delivery (OTD) metric. At its core, OTD is the ratio of on-time deliveries to total deliveries, with additional penalties being applied for overdue parts. However, in practice, pursuing assertions can be complex. Receiving data is often difficult to reconcile with the vendor's shipping data, legal documentation requirements are extensive, and damage calculations may involve intricate business logic such as tiered penalties, foreign currency considerations, and multiple (often international) factory calendars.
+Many contracts at Collins Aerospace include assertion clauses that apply when a vendor underperforms, typically measured by an On-Time Delivery (OTD) metric. At its core, OTD is the ratio of on-time deliveries to total deliveries, with additional penalties being applied for overdue parts. However, in practice, pursuing assertions can be complex. Receiving data is often difficult to reconcile with the vendor's shipping data, legal documentation requirements are extensive, and damage calculations may involve intricate business logic such as tiered penalties, foreign currency considerations, and multiple (often international) factory calendars.
 
 To streamline this process, I developed an ecosystem of data tools to centralize and automate contractual assertions, including:
 * A simple Contract Metadata Database built using **SQL Server** & **Excel VBA**
@@ -26,7 +26,7 @@ In its first year of operation, the system identified over $100M in assertion op
 
 The core differentiator of this system is not technical in nature - rather, its innovation lies in reframing a manual, fragmented business process as a data product problem. By centralizing and standardizing contractual metadata into a common data model, this tool automates work that otherwise would be economically impractical (i.e. having a lawyer spend multiple hours drafting documentation for assertions <$100K in value). As the system scales, these small assertions compound over time and end up having a meaningful financial impact.
 
-Two Airflow pipelines power the solution: the first applies custom business logic to reconcile vendor invoice and shipping data with RTX receiving data, producing assertion-ready datasets. The second dynamically computes damages using contractual metadata and automatically generates the required legal documentation.
+Two Airflow pipelines power the solution: the first applies custom business logic to reconcile vendor invoice and shipping data with Collins receiving data, producing assertion-ready datasets. The second dynamically computes damages using contractual metadata and automatically generates the required legal documentation.
 
 <br/>
 
