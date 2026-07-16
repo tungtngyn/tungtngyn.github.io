@@ -6,7 +6,7 @@ author_profile: true
 
 ## Introduction
 
-Hi, my name is Tung (pronounced "tongue", like your tongue!). I'm a self-motivated and results-driven engineer with ~8 years of professional experience, specializing in data engineering and analytics.
+Hi, my name is Tung (pronounced "tongue", like your tongue!). I'm a self-motivated and results-driven engineer with 8+ years of professional experience, specializing in data engineering and analytics.
 
 My background is in computational mechanics, where I focused on numerical optimization and finite element modeling to solve high-dimensional engineering problems. That foundation naturally evolved into an interest in data, AI, and backend technologies. In my current role, I focus on converting fragmented ERP / operational datasets into reliable and scalable data products that drive critical business decisions.
 
@@ -18,14 +18,14 @@ Get to know me: Read about my projects, connect with me on LinkedIn, or download
 
 ## Professional Experience
 
-### Data Engineer @ Collins Aerospace (RTX) 
+### Principal Data Engineer @ Collins Aerospace (RTX) 
 **Jan 2023 - Present**
 
 Working in a full-stack, cloud-native data team: Responsible for data ingestion / transformation, data delivery APIs, and webapps. Currently serving as the team's architect for data platform infrastructure and data engineering.
 
 **Skills:** AWS, Airflow, Python, SQL (Snowflake, Postgres), Docker
 
-### Structural Analysis Engineer @ Collins Aerospace (RTX) 
+### Senior Structural Analysis Engineer @ Collins Aerospace (RTX) 
 **Jun 2018 - Jan 2023**
 
 Responsible for the design and analysis of aerospace structures in a wide variety of environments. Specialized in analysis automation and structural optimization.
