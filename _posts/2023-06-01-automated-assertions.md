@@ -16,7 +16,7 @@ To streamline this process, I developed an ecosystem of data tools to centralize
 * An **Airflow** pipeline which generates legal documentation on-demand, triggered by users via the Airflow REST API
 * **Tableau** dashboards to identify underperforming vendors & track data loads
 
-In its first year of operation, the system identified over $100M in assertion opportunities, with approximately $15M successfully collected. Due to its success, senior leadership identified this tool as a strategic opportunity for enterprise-scale adoption.
+In its first year of operation, the system identified over $100M in assertion opportunities, with approximately $15M successfully sent out. Due to its success, senior leadership identified this tool as a strategic opportunity for enterprise-scale adoption.
 
 <br/>
 
